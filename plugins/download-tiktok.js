@@ -83,4 +83,4 @@ handler.tags = ['download']
 handler.command = /^(tiktok|tt|tikdl|tiktokdl)$/i
 handler.saki = true
 
-export default handlerr
+export default handler
