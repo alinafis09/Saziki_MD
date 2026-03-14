@@ -19,6 +19,10 @@ import settings, {
 } from './lib/settings.js';
 import { consumeSaki, getCurrentSaki } from './src/libraries/saki.js';
 
+// ✅ التعديل المهم هنا - استيراد proto بشكل صحيح
+import baileys from '@whiskeysockets/baileys';
+const { proto } = baileys;
+
 // ==================== GLOBAL CONFIGURATION ====================
 global.devCommands = global.devCommands || [];
 
