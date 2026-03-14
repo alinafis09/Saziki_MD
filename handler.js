@@ -33,7 +33,6 @@ const CHANNEL_LINK = 'https://whatsapp.com/channel/0029Va8Q5VGLkPHqYxqVON3f';
 const CHANNEL_THUMBNAIL = 'https://telegra.ph/file/1ecdb5a0aee62ef17d7fc.jpg';
 
 // ==================== UTILITY FUNCTIONS ====================
-const { proto } = (await import("@whiskeysockets/baileys")).default;
 const isNumber = (x) => typeof x === 'number' && !isNaN(x);
 const delay = (ms) => isNumber(ms) && new Promise((resolve) => setTimeout(resolve, ms));
 
